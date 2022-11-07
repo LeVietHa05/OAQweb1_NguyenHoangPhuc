@@ -1,0 +1,163 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.back{
+    width: 100%;
+    font-size: 30px;
+}
+.p2{
+    
+    margin: 50px 150px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.p1{
+    margin: 50px 150px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.info{
+    width: 240px;
+}
+.win{
+    font-size: 60px;
+    color: lime
+}
+.lose{
+    font-size: 60px;
+    color: red
+}
+
+.outer-board{
+    display: flex;
+    justify-content: space-around;
+}
+.board{
+    padding: 0px;
+    /* border: 5px solid black; */
+    /* border-radius: 150px; */
+    height: 309px;
+    width: 1048px;
+    background-image: url('../board2.png');
+    background-size:contain;
+
+    display: flex;
+    align-items: center;
+}
+
+.nha-dan{
+    width: 720px;
+    display: flex;
+    padding: 8px;
+}
+.nha-quan-l{
+    width: 150px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.nha-quan-r{
+    width: 150px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.o-dan-tren{
+    /* border: 5px solid black; */
+    margin: 0px 6.9px;
+    height: 132px;
+    width: 132px;
+    /* background-color: transparent; */
+    opacity: 1;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.o-dan-duoi{
+    /* border: 5px solid black; */
+    margin: 2.5px 6.9px;
+    height: 132px;
+    width: 132px;
+    /* background-color: transparent; */
+    opacity: 1;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.o-quan{
+    height: 60px;
+    width: 100px;
+    /* background-color: red; */
+    opacity: 1;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.o-quan-dan{
+    height: 128px;
+    width: 128px;
+    /* background-color: yellow; */
+    opacity: 1;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.num-inside{
+    background-color: transparent;
+    font-size: 30px;
+    color: maroon
+}
+.hide-num{
+    opacity: 0.5;
+}
+.hide-btn{
+    opacity: 0;
+}
+
+.glow{
+    background-color: pink;
+}
+
+.peb1{
+    background: center/cover url("../../../imgs/peb1.png") no-repeat;}
+
+.peb2{
+    background: center/cover url("../../../imgs/peb2.png") no-repeat;}
+.peb3{
+    background: center/cover url("../../../imgs/peb3.png") no-repeat;}
+.peb4{
+    background: center/cover url("../../../imgs/peb4.png") no-repeat;}
+.peb5{
+    background: center/cover url("../../../imgs/peb5.png") no-repeat;
+    /*background-image: url('../../../imgs/peb5.png') !important;*/
+    /* background-color: blue; */
+}
+.peb6{
+    background: center/cover url("../../../imgs/peb6.png") no-repeat;}
+.peb7{
+    background: center/cover url("../../../imgs/peb7.png") no-repeat;}
+.peb8{
+    background: center/cover url("../../../imgs/peb8.png") no-repeat;}
+.peb9{
+    background: center/cover url("../../../imgs/peb9.png") no-repeat;}
+.peb10{
+    background: center/cover url("../../../imgs/peb10.png") no-repeat;}
+.gold1{
+    background: center/cover url("../../../imgs/gold.png") no-repeat;} 
+
+.o1{
+    /* background-color: red; */
+}
+.o2{
+
+}

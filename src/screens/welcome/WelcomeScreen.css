@@ -1,0 +1,17 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 150px;
+}
+
+.btn{
+    margin:15px;
+    padding: 10px;
+    font-size: 30px;
+    width: 300px;
+}
